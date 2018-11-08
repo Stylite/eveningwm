@@ -1,6 +1,7 @@
 # EveningWm
 
 Manage your windows while sipping on some evening tea ;)
+![](scrot.png)
 
 ### What is EveningWm?
 EveningWm is a minimal floating window manager built
