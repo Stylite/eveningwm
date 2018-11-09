@@ -43,7 +43,7 @@ sudo make clean
 ### Things still to be done/known bugs
 * Currently EveningWm doesn't know how to ignore bars, docks etc..
 * If any modifier key in addition to Alt (e.g caps lock, num lock..) is pressed the keybinds won't work (I'm pretty sure I already know how to fix this tho)
-* For some reason fireofx context menus stopped working even thought I'm 100% sure they worked just a couple of days ago :(
+* For some reason firefox context menus stopped working even thought I'm 100% sure they worked just a couple of days ago :(
 
 ### Gotta give credit where credit is due
 * Nick Welch for creating TinyWm.
