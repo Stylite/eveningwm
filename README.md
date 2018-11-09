@@ -13,9 +13,9 @@ This project is a proud fork of the most smallest wm, [TinyWm](http://incise.org
 EveningWm isn't trying to be the next i3 replacement, this was just a small evening project of mine (hence the name.)
 
 ### Features
-* Focus follows the mouse.
-* Move a window with Alt + Left mouse button.
-* Resize a window with Alt + Right mouse button.
+* Focus follows the mouse (sloppy)
+* Move a window with Alt + Left mouse button
+* Resize a window with Alt + Right mouse button
 * Raise a window with Alt + r
 * Lower a window with Alt + d
 * Launch a terminal with Alt + Return (default terminal is urxvt)
@@ -32,17 +32,18 @@ EveningWm is configured by editing the "massive" source code.
 ### Installation
 To install EveningWm run:
 ```
-make all
+sudo make all install
 ```
 
 and to uninstall:
 ```
-make clean
+sudo make clean
 ```
 
-### Things still to be done/known bugs (no need to report these)
+### Things still to be done/known bugs
 * Currently EveningWm doesn't know how to ignore bars, docks etc..
 * If any modifier key in addition to Alt (e.g caps lock, num lock..) is pressed the keybinds won't work (I'm pretty sure I already know how to fix this tho)
+* For some reason fireofx context menus stopped working even thought I'm 100% sure they worked just a couple of days ago :(
 
 ### Gotta give credit where credit is due
 * Nick Welch for creating TinyWm.
@@ -51,3 +52,4 @@ make clean
 
 ### Warning
 EveningWm is my first actual C project ever, so expect the worst and hope for the best.
+I've also never written a Makefile before so please report if I did something stupid.
