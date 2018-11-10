@@ -40,10 +40,10 @@ and to uninstall:
 sudo make clean
 ```
 
-### Things still to be done/known bugs
+### Things still to be done/known bugs (send help)
 * Currently EveningWm doesn't know how to ignore bars, docks etc..
-* If any modifier key in addition to Alt (e.g caps lock, num lock..) is pressed the keybinds won't work (I'm pretty sure I already know how to fix this tho)
-* For some reason firefox context menus stopped working even thought I'm 100% sure they worked just a couple of days ago :(
+* If any modifier key in addition to Alt (e.g caps lock, num lock..) is pressed the keybinds won't work.
+* ~~For some reason firefox context menus stopped working even thought I'm 100% sure they worked just a couple of days ago :(~~
 
 ### Gotta give credit where credit is due
 * Nick Welch for creating TinyWm.
