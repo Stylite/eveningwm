@@ -13,9 +13,9 @@ This project is a proud fork of the most smallest wm, [TinyWm](http://incise.org
 EveningWm isn't trying to be the next i3 replacement, this was just a small evening project of mine (hence the name.)
 
 ### Features
-* Focus follows the mouse (sloppy)
-* Move a window with Alt + Left mouse button
-* Resize a window with Alt + Right mouse button
+* Sloppy focus follows the mouse, to properly focus a window press Alt + Mouse1 on it.
+* Move a window with Alt + Mouse1
+* Resize a window with Alt + Mouse3
 * Raise a window with Alt + r
 * Lower a window with Alt + d
 * Launch a terminal with Alt + Return (default terminal is urxvt)
