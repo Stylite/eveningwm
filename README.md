@@ -5,7 +5,8 @@ Manage your windows while sipping on some evening tea ;)
 
 ### What is EveningWm?
 EveningWm is a minimal floating window manager built
-using Xlib.
+using Xlib. EveningWm is best suitable for terminal usage and minimal setups, please don't attempt to run many graphical applications, you will just have a bad time.
+Windows don't have borders or any other decoration by default.
 
 This project is a proud fork of the most smallest wm, [TinyWm](http://incise.org/tinywm.html)
 (originally written by Nick Welch <nick@incise.org> in 2005 & 2011.)
