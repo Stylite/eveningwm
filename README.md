@@ -50,5 +50,4 @@ sudo make clean
 * The whole r/unixporn community for motivation.
 
 ### Warning
-EveningWm is my first actual C project ever, so expect the worst and hope for the best.
-I've also never written a Makefile before so please report if I did something stupid.
+EveningWm is my first actual C project ever, so expect the worst but hope for the best.
