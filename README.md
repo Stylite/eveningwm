@@ -1,6 +1,7 @@
 # EveningWm
 
 Less features, less problems
+
 ![](https://preview.redd.it/zy0hoxsicvx11.png?width=960&crop=smart&auto=webp&s=0fd9ce892e57e8a8631af4543e48f4b6e42558b3)
 
 ### What is EveningWm and why would I ever use it?
@@ -11,13 +12,14 @@ With more features, comes more bugs and that's what EveningWm is trying to solve
 This project is a proud fork of the most smallest wm, [TinyWm](http://incise.org/tinywm.html)
 (originally written by Nick Welch <nick@incise.org> in 2005 & 2011.)
 
-### Features
+### Default keybinds
 * Sloppy focus follows the mouse, to properly focus a window press Alt + Mouse1 on it.
 * Move a window with Alt + Mouse1
 * Resize a window with Alt + Mouse3
 * Raise a window with Alt + r
 * Lower a window with Alt + d
-* Launch a terminal with Alt + Return (default terminal is urxvt)
+* Launch a terminal with Alt + Return (default is urxvt)
+* Launch a browser with Alt + f (default is firefox)
 * Close EveningWm with Alt + 0
 
 ### Configuration
