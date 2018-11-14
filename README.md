@@ -31,12 +31,12 @@ EveningWm is configured by editing the "massive" source code.
 ### Installation
 To install EveningWm run:
 ```
-sudo make all install
+make all
 ```
 
 and to uninstall:
 ```
-sudo make clean
+make clean
 ```
 
 ### Things still to be done/known bugs (send help)
