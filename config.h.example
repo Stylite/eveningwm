@@ -1,0 +1,18 @@
+/* This software is in the public domain
+ * and is provided AS IS, with NO WARRANTY. */
+
+/* defualt apps */
+static const char term[] = ""; /* your terminal emulator */
+static const char browser[] = ""; /* your browser */
+static const char menu[] = ""; /* your run function */
+static const char bar[] = ""; /*your bar */
+static const char composer[] = ""; /* your composer */
+
+/* Keybinds */
+static const char *movekeys[] = { "q", "e", "r" }; /* movement keys  */
+static const char *programkeys[] = { "Return", "f", "d", "0" }; /* Program keys */
+
+/* customization */
+/* static const char wallpaper[] = ""; */
+static const int width = 100;
+static const int height = 50;
