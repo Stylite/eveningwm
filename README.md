@@ -26,6 +26,7 @@ This project is a proud fork of the most smallest wm, [TinyWm](http://incise.org
 
 ### Configuration
 EveningWm is configured by editing the config.h file.
+Defualt settings are there but it's highly recommened you configure it to how you like
 
 ### Build requirements
 * gcc

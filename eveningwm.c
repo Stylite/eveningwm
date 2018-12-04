@@ -1,4 +1,5 @@
-
+/* This software is in the public domain
+ * and is provided AS IS, with NO WARRANTY. */
 
 #include <X11/Xlib.h>
 #include <stdlib.h>
@@ -23,22 +24,22 @@ int main(void)
     /*If we can't open display return 1*/    
     if(!(dpy = XOpenDisplay(0x0))) return 1; 
 	
-    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(movekeys[0])), Mod1Mask,
+    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(movekeys[0])), super,
         DefaultRootWindow(dpy), True, GrabModeAsync, GrabModeAsync);
-    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(movekeys[1])), Mod1Mask,
+    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(movekeys[1])), super,
         DefaultRootWindow(dpy), True, GrabModeAsync, GrabModeAsync);
-    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(movekeys[2])), Mod1Mask,
+    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(movekeys[2])), super,
         DefaultRootWindow(dpy), True, GrabModeAsync, GrabModeAsync);
-    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(programkeys[3])), Mod1Mask,
+    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(programkeys[3])), super,
         DefaultRootWindow(dpy), True, GrabModeAsync, GrabModeAsync);
-    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(programkeys[0])), Mod1Mask,
+    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(programkeys[0])), super,
         DefaultRootWindow(dpy), True, GrabModeAsync, GrabModeAsync);
-    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(programkeys[1])), Mod1Mask,
+    XGrabKey(dpy, XKeysymToKeycode(dpy, XStringToKeysym(programkeys[1])), super,
         DefaultRootWindow(dpy), True, GrabModeAsync, GrabModeAsync);
 
-    XGrabButton(dpy, 1, Mod1Mask, DefaultRootWindow(dpy), True,
+    XGrabButton(dpy, 1, super, DefaultRootWindow(dpy), True,
         ButtonPressMask|ButtonReleaseMask|PointerMotionMask, GrabModeAsync, GrabModeAsync, None, None);
-    XGrabButton(dpy, 3, Mod1Mask, DefaultRootWindow(dpy), True,
+    XGrabButton(dpy, 3, super, DefaultRootWindow(dpy), True,
         ButtonPressMask|ButtonReleaseMask|PointerMotionMask, GrabModeAsync, GrabModeAsync, None, None);
     
     start.subwindow = None; 
